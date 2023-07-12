@@ -1,0 +1,40 @@
+{
+  "name": "suisse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/488n235e/suisse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/488n235e/suisse/issues"
+  },
+  "author": "488n235e <488n235e@pm.me>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/suisse.umd.js",
+  "module": "./dist/suisse.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/suisse.es.js",
+      "require": "./dist/suisse.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "keywords": [
+    "utils",
+    "utilities",
+    "helper",
+    "toolkit",
+    "ui"
+  ]
+}
