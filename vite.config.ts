@@ -10,5 +10,5 @@ module.exports = defineConfig({
       fileName: format => `suisse.${format}.js`,
     },
   },
-  plugins: [dts()],
+  plugins: [dts({ include: ['src'],})],
 });
