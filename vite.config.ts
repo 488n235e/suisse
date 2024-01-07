@@ -7,8 +7,8 @@ module.exports = defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'suisse',
-      fileName: format => `suisse.${format}.js`,
+      fileName: format => `index.${format}.js`,
     },
   },
-  plugins: [dts({ include: ['src'],})],
+  plugins: [dts({ insertTypesEntry: false })],
 });

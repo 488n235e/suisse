@@ -13,15 +13,9 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/suisse.umd.js",
-  "module": "./dist/suisse.es.js",
+  "main": "./dist/index.es.js",
+  "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/suisse.es.js",
-      "require": "./dist/suisse.umd.js"
-    }
-  },
   "scripts": {
     "build": "vite build"
   },
