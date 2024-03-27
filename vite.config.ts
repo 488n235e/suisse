@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'suisse',
-      fileName: format => `index.${format}.js`,
+      fileName: 'index',
     },
   },
   plugins: [dts({ insertTypesEntry: false })],
